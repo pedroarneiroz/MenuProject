@@ -483,9 +483,6 @@
         </div>
     </section>
 
-
-
-
     <footer>
         <div class="container">
             <div class="row">
@@ -512,8 +509,168 @@
                 </div>
             </div>
         </div>
-
     </footer>
+
+    <div class="modal-full" id="modalCarrinho">
+
+        <div class="m-header">
+            <div class="container">
+                <a href="" class="btn btn-white btn-sm float-right">
+                    Fechar
+                </a>
+                <div class="steps">
+                    <div class="step step1 active">1</div>
+                    <div class="step step2">2</div>
+                    <div class="step step3">3</div>
+                </div>
+                <p class="cart-title mt-4">
+                    <b id="lblStepTitle">Seu carrinho:</b>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="m-body">
+            <div class="container">
+
+                <div id="cartItems" class="row ml-0 mr-0">
+
+                    <div class="col-12 cart-item">
+                        <div class="product-image">
+                            <img src="./img/cardapio/burguers/burger-au-poivre-kit-4-pack.3ca0e39b02db753304cd185638dad518.jpg"
+                                alt="">
+                        </div>
+                        <div class="product-data">
+                            <p class="title-produto">
+                                <b>Nome do produto</b>
+                            </p>
+                            <p class="price-produto">
+                                <b>R$149,90</b>
+                            </p>
+                        </div>
+
+                        <div class="add-carrinho">
+                            <span class="btn-menos"><i class="fas fa-minus"></i></span>
+                            <span class="add-numero-itens">0</span>
+                            <span class="btn-mais"><i class="fas fa-plus"></i></span>
+                            <span class="btn btn-remove"><i class="fa fa-times"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="col-12 cart-item">
+                        <div class="product-image">
+                            <img src="./img/cardapio/burguers/burger-au-poivre-kit-4-pack.3ca0e39b02db753304cd185638dad518.jpg"
+                                alt="">
+                        </div>
+                        <div class="product-data">
+                            <p class="title-produto">
+                                <b>Nome do produto</b>
+                            </p>
+                            <p class="price-produto">
+                                <b>R$149,90</b>
+                            </p>
+                        </div>
+
+                        <div class="add-carrinho">
+                            <span class="btn-menos"><i class="fas fa-minus"></i></span>
+                            <span class="add-numero-itens">0</span>
+                            <span class="btn-mais"><i class="fas fa-plus"></i></span>
+                            <span class="btn btn-remove"><i class="fa fa-times"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="col-12 cart-item">
+                        <div class="product-image">
+                            <img src="./img/cardapio/burguers/burger-au-poivre-kit-4-pack.3ca0e39b02db753304cd185638dad518.jpg"
+                                alt="">
+                        </div>
+                        <div class="product-data">
+                            <p class="title-produto">
+                                <b>Nome do produto</b>
+                            </p>
+                            <p class="price-produto">
+                                <b>R$149,90</b>
+                            </p>
+                        </div>
+
+                        <div class="add-carrinho">
+                            <span class="btn-menos"><i class="fas fa-minus"></i></span>
+                            <span class="add-numero-itens">0</span>
+                            <span class="btn-mais"><i class="fas fa-plus"></i></span>
+                            <span class="btn btn-remove"><i class="fa fa-times"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="col-12 cart-item">
+                        <div class="product-image">
+                            <img src="./img/cardapio/burguers/burger-au-poivre-kit-4-pack.3ca0e39b02db753304cd185638dad518.jpg"
+                                alt="">
+                        </div>
+                        <div class="product-data">
+                            <p class="title-produto">
+                                <b>Nome do produto</b>
+                            </p>
+                            <p class="price-produto">
+                                <b>R$149,90</b>
+                            </p>
+                        </div>
+
+                        <div class="add-carrinho">
+                            <span class="btn-menos"><i class="fas fa-minus"></i></span>
+                            <span class="add-numero-itens">0</span>
+                            <span class="btn-mais"><i class="fas fa-plus"></i></span>
+                            <span class="btn btn-remove"><i class="fa fa-times"></i></span>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div id="localDelivery" class="row ml-0 mr-0 hidden"></div>
+
+                <div id="cartSummary" class="row ml-0 mr-0 hidden"></div>
+            </div>
+        </div>
+
+        <div class="m-footer">
+            <div class="container">
+                <div class="container-total text-right mb-4">
+                    <p class="mb-0">
+                        <span>Subtotal</span>
+                        <span id="lblSubTotal">R$95,00</span>
+                    </p>
+                    <p class="mb-0 texto-entrega">
+                        <span>
+                            <i class="fa fa-motorcycle">
+
+                            </i>&nbsp;Entrega</span>
+                        <span id="lblValorEntrega"> + R$5,00</span>
+                    </p>
+                    <p class="mb-0 texto-total">
+                        <span>
+                            <b>Total:</b>
+                        </span>
+                        <span class="valor-total" id="lblValorTotal"><b>R$100,00</b></span>
+                    </p>
+                </div>
+
+                <a href="" class="btn btn-yellow float-right" id="btnEtapaPedido">
+                    Continuar
+                </a>
+                <a href="" class="btn btn-yellow float-right hidden" id="btnEtapaEndereco">
+                    Revisar pedido
+                </a>
+                <a href="" class="btn btn-yellow float-right hidden" id="btnEtapaResumo">
+                    Enviar pedido
+                </a>
+
+                <a href="" class="btn btn-white float-right" id="btnEtapaPedido">
+                    Voltar
+                </a>
+
+            </div>
+        </div>
+    </div>
+
 
 
     <script type="text/javascript" src="./js/jquery-1.12.4.min.js"></script>
